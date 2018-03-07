@@ -6,4 +6,8 @@ babel
 pillow
 hashids
 werkzeug
-
+gunicorn
+flask-sqlalchemy
+sqlalchemy
+flask-login
+psycopg2

@@ -40,13 +40,7 @@
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light scrolling-navbar dark stylish-color">
         <div class="container-fluid justify-content-center align-items-center">
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
-                    aria-controls="navbarSupportedContent-4"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent-4">
+            <div class="collapse navbar-collapse justify-content-start" id="navbarSupportedContent-4">
                 <ul class="navbar-nav">
 
                     <li class="nav-item ml-4 mb-0">
@@ -67,12 +61,28 @@
                             {% endfor %}
                         </ul>
                     </li>
-                    <li class="nav-item ml-4 mb-0">
-                        <a class="nav-link waves-effect waves-light white-text font-bold" href="#">AUTHOR
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto nav-flex-icons light" id="homeSearch">
+                    <form class="form-inline waves-effect waves-light white-text" id="frmSearch"
+                          action="{{ url_for('search') }}" method="get">
+                        <input class="form-control mr-sm-4 white-text" type="text" name="r" placeholder="Search"
+                               aria-label="Search">
+                    </form>
+                    <button class="button btn-outline-amber" form="frmSearch" type="submit"><i class="fa fa-search"></i>
+                    </button>
+
+                </ul>
+            </div>
+
+
+            <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarSupportedContent-4">
+                <ul class="navbar-nav">
                     {% if current_user.is_authenticated %}
+                        <li class="nav-item ml-4 mb-0">
+                            <a class="nav-link waves-effect waves-light white-text font-bold"
+                               href="{{ url_for('add_post') }}"><i class="fa fa-plus"></i> ADD NEW POST <span
+                                    class="sr-only">(current)</span></a>
+                        </li>
                         <li class="nav-item dropdown ml-4  mb-0">
                             <a href="#"
                                class="nav-link dropdown-toggle waves-effect waves-light white-text font-up font-bold"
@@ -88,11 +98,7 @@
                                    href={{ url_for('logout') }}>Logout</a>
                             </div>
                         </li>
-                        <li class="nav-item ml-4 mb-0">
-                            <a class="nav-link waves-effect waves-light white-text font-bold"
-                               href="{{ url_for('add_post') }}"><i class="fa fa-plus"></i> ADD NEW POST <span
-                                    class="sr-only">(current)</span></a>
-                        </li>
+
                     {% else %}
                         <li class="nav-item ml-4 mb-0">
                             <a class="nav-link waves-effect waves-light white-text font-bold"
@@ -106,17 +112,6 @@
                 </ul>
             </div>
 
-            <ul class="navbar-nav ml-auto nav-flex-icons light" id="homeSearch">
-                <form class="form-inline waves-effect waves-light white-text" id="frmSearch"
-                      action="{{ url_for('search') }}" method="get">
-                    <input class="form-control mr-sm-2 white-text" type="text" name="r" placeholder="Search"
-                           aria-label="Search">
-                </form>
-                <button class="button btn-outline-amber" form="frmSearch" type="submit"><i class="fa fa-search"></i>
-                </button>
-
-            </ul>
-
         </div>
 
     </nav>
@@ -128,9 +123,311 @@
 
 <!-- /.FB SDK -->
 
-{% block content %}
+<!--Main layout-->
+<main>
+
+
+    {% block intro %}
+
+    {% endblock %}
+
+    <!--Blog section-->
+    <section>
+        <div class="container-fluid grey lighten-4">
+            <div class="container">
+                <!--Blog-->
+                <div class="row mt-5 pt-3">
+                    {% block content %}
+                        <!-- List post here -->
+                    {% endblock %}
+                    <!--Sidebar-->
+                    <div class="col-lg-3 col-12 mt-1">
+                        <!-- Section: Featured posts -->
+                        <section class="section widget-content">
+                            <!--/ Card -->
+                            <div class="card card-body pb-0">
+                                <div class="single-post">
+
+                                    <p class="font-bold dark-grey-text text-center spacing grey lighten-4 py-2 mb-4">
+                                        <strong>TOP POSTS</strong>
+                                    </p>
+                                </div>
+                                {% for entry in lst_top_entry %}
+                                    <div class="single-post">
+                                        <!-- Grid row -->
+                                        <div class="row mb-4">
+                                            <div class="col-5">
+
+                                                <!-- Image -->
+                                                <div class="view overlay hm-white-slight">
+                                                    <img src="/static/upload/{{ entry.image }}"
+                                                         class="img-fluid z-depth-1" alt="sample image">
+                                                    <a>
+                                                        <div class="mask waves-light"></div>
+                                                    </a>
+                                                </div>
+                                            </div>
+
+                                            <!-- Excerpt -->
+                                            <div class="col-7">
+                                                <h6 class="mt-0 font-small">
+                                                    <a href="{{ url_for('entry_detail', uname = entry.user.username, url = entry.metatitle, id = entry.id | custom_encode) }}">
+                                                        <strong>{{ entry.title }}</strong>
+                                                    </a>
+                                                </h6>
+
+                                                <div class="post-data">
+                                                    <p class="font-small grey-text mb-0">
+                                                        <i class="fa fa-eye"></i>{{ entry.views }}</p>
+                                                    <p class="font-small grey-text mb-0">
+                                                        <i class="fa fa-clock-o"></i>{{ entry.createdate.strftime('%d-%m-%Y') }}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <!--/ Excerpt -->
+                                        </div>
+                                        <!--/ Grid row -->
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </section>
+                        <!--/ Section: Featured posts -->
+
+                        <!--Newsletter-->
+                        <section class="my-5">
+
+                            <!--/ Card -->
+                            <div class="card card-body pb-0">
+                                <div class="single-post">
+
+                                    <p class="font-bold dark-grey-text text-center spacing grey lighten-4 py-2 mb-4">
+                                        <strong>SUBSCRIBE</strong>
+                                    </p>
+
+                                    <!--Grid row-->
+                                    <div class="row mt-4">
+                                        <!--Grid column-->
+                                        <div class="col-md-12">
+                                            <div class="input-group md-form form-sm form-3 pl-0">
+                                                    <span class="input-group-addon white black-text"
+                                                          id="basic-addon9"><i class="fa fa-envelope"></i></span>
+                                                <input type="text"
+                                                       class="form-control mt-0 black-border rgba-white-strong"
+                                                       id="emailSubscribe"
+                                                       placeholder="Email" aria-describedby="basic-addon9">
+                                            </div>
+
+                                            <button type="button" id="btnSubscribe"
+                                                    class="btn btn-grey btn-block mb-4">Subscribe
+                                                now
+                                            </button>
+                                        </div>
+                                        <!--Grid column-->
+                                    </div>
+                                    <!--Grid row-->
+
+                                </div>
+                            </div>
+                        </section>
+                        <!--Newsletter-->
+
+                        <!-- Tags -->
+                        <section class="my-5">
+
+                            <!--/ Card -->
+                            <div class="card card-body pb-0">
+                                <div class="single-post">
+
+                                    <p class="font-bold dark-grey-text text-center spacing grey lighten-4 py-2 mb-4">
+                                        <strong>TAGS</strong>
+                                    </p>
+
+                                    <!--Grid row-->
+                                    <div class="row mt-4 pl-2">
+                                        <!--Grid column-->
+                                        {% for tag in lst_tag %}
+                                            <a href="#" class="chip teal lighten-2 white-text">
+                                                {{ tag.title }}
+                                            </a>
+                                        {% endfor %}
+
+
+                                        <!--Grid column-->
+                                    </div>
+                                    <!--Grid row-->
+
+                                </div>
+                            </div>
+                        </section>
+                        <!--  /Tags -->
+
+                        <!-- Section: Categories -->
+                        <section class="section mb-5">
+
+                            <!--/ Card -->
+                            <div class="card card-body pb-0">
+                                <div class="single-post">
+
+                                    <p class="font-bold dark-grey-text text-center spacing grey lighten-4 py-2 mb-4">
+                                        <strong>CATEGORIES</strong>
+                                    </p>
+
+                                    <ul class="list-group my-4">
+                                        {% for category in lstcategory %}
+                                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                <a class=""
+                                                   href={{ url_for('category', url = category.metatitle, id = category.id | custom_encode, page = 1) }}>
+                                                    <p class="mb-0">{{ category.title }}</p>
+                                                </a>
+                                                <span class="badge badge-teal badge-pill font-small">{{ category.id | counter_category }}</span>
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </section>
+                        <!-- Section: Categories -->
+
+                    </div>
+                    <!--Sidebar-->
+                </div>
+                <!--Blog-->
+            </div>
+        </div>
+    </section>
+    <!--Blog section-->
+
+    <!--Latest posts-->
+    <section>
+        <div class="container-fluid white mb-0 pb-0">
+            <hr class="mt-0">
+            <div class="container">
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12">
+                        <div class="section mt-5">
+                            <div class="fb-page" data-href="https://www.facebook.com/MouseWip-330088644165673"
+                                 data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+                                 data-show-facepile="true">
+                                <blockquote cite="https://www.facebook.com/MouseWip-330088644165673"
+                                            class="fb-xfbml-parse-ignore"><a
+                                        href="https://www.facebook.com/MouseWip-330088644165673">MouseWip</a>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6">
+                        <h6 class="font-bold mt-5 mb-3">LATESTS POSTS</h6>
+                        <hr class="mb-5">
+                        {% for entry in lst_latest_post %}
+
+                            <!--Grid row-->
+                            <div class="row mt-4">
+
+                                <!--Grid column-->
+                                <div class="col-4">
+
+                                    <!--Image-->
+                                    <div class="view overlay hm-white-slight z-depth-1 mb-3">
+                                        <img src="/static/upload/{{ entry.image }}"
+                                             class="img-fluid" alt="Post">
+                                        <a>
+                                            <div class="mask"></div>
+                                        </a>
+                                    </div>
+
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Second column-->
+                                <div class="col-8 mb-1">
+
+                                    <!--Post data-->
+                                    <div class="">
+                                        <p class="mb-1">
+                                            <a href="{{ url_for('entry_detail', uname = entry.user.username, url = entry.metatitle, id = entry.id | custom_encode) }}"
+                                               class="text-hover font-bold">{{ entry.title }}</a>
+                                        </p>
+                                        <p class="font-small grey-text">
+                                            <em>{{ entry.createdate.strftime('%d-%m-%Y') }}</em>
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <!--Second column-->
+
+                            </div>
+                            <!--Grid row-->
+                        {% endfor %}
+
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6">
+                        <h6 class="font-bold mt-5 mb-3">OLDER POSTS</h6>
+                        <hr class="mb-5">
+                        {% for entry in lst_older_post %}
+                            <!--Grid row-->
+                            <div class="row mt-4">
+                                <!--Grid column-->
+                                <div class="col-4">
+                                    <!--Image-->
+                                    <div class="view overlay hm-white-slight z-depth-1 mb-3">
+                                        <img src="/static/upload/{{ entry.image }}"
+                                             class="img-fluid" alt="Post">
+                                        <a>
+                                            <div class="mask"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!--Grid column-->
+                                <!--Second column-->
+                                <div class="col-8 mb-1">
+                                    <!--Post data-->
+                                    <div class="">
+                                        <p class="mb-1">
+                                            <a href="{{ url_for('entry_detail', uname = entry.user.username, url = entry.metatitle, id = entry.id | custom_encode) }}"
+                                               class="text-hover font-bold">{{ entry.title }}</a>
+                                        </p>
+                                        <p class="font-small grey-text">
+                                            <em>{{ entry.createdate.strftime('%d-%m-%Y') }}</em>
+                                        </p>
+                                    </div>
+                                </div>
+                                <!--Second column-->
+                            </div>
+                            <!--Grid row-->
+                        {% endfor %}
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+        </div>
+    </section>
+    <!--/Latest posts-->
+
+</main>
+<!--Main layout-->
+<div class="fixed-action-btn smooth-scroll" style="bottom: 45px; right: 24px;">
+    <a href="#top-section" class="btn-floating btn-large light-blue">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+</div>
+
+{% block component %}
 
 {% endblock %}
+
 
 <!--Footer-->
 <footer class="page-footer stylish-color mt-0 pt-0 center-on-small-only">
