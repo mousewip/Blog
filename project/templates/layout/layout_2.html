@@ -40,10 +40,11 @@
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light scrolling-navbar dark stylish-color">
         <div class="container-fluid justify-content-center align-items-center">
-            <div class="collapse navbar-collapse justify-content-start" id="navbarSupportedContent-4">
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent-4"
+                 style="width: 50%">
                 <ul class="navbar-nav">
 
-                    <li class="nav-item ml-4 mb-0">
+                    <li class="nav-item mb-0">
                         <a class="nav-link waves-effect waves-light white-text font-bold"
                            href={{ url_for('home', page = 1) }}>HOME
                             <span class="sr-only">(current)</span>
@@ -62,17 +63,17 @@
                         </ul>
                     </li>
                 </ul>
-                <ul class="navbar-nav ml-auto nav-flex-icons light" id="homeSearch">
-                    <form class="form-inline waves-effect waves-light white-text" id="frmSearch"
-                          action="{{ url_for('search') }}" method="get">
-                        <input class="form-control mr-sm-4 white-text" type="text" name="r" placeholder="Search"
-                               aria-label="Search">
-                    </form>
-                    <button class="button btn-outline-amber" form="frmSearch" type="submit"><i class="fa fa-search"></i>
-                    </button>
-
-                </ul>
             </div>
+            <ul class="navbar-nav ml-auto nav-flex-icons light" id="homeSearch">
+                <form class="form-inline waves-effect waves-light white-text" id="frmSearch"
+                      action="{{ url_for('search') }}" method="get">
+                    <input class="form-control white-text" type="text" name="r" placeholder="Search"
+                           aria-label="Search">
+                </form>
+                <button class="button btn-outline-amber" form="frmSearch" type="submit"><i class="fa fa-search"></i>
+                </button>
+
+            </ul>
             <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarSupportedContent-4">
                 <ul class="navbar-nav">
                     {% if current_user.is_authenticated %}

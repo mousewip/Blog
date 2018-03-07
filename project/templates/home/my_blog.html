@@ -128,21 +128,90 @@
 
 {% block component %}
     <div class="spinner"></div>
-    <div class="fixed-action-btn" style="bottom: 130px; right: 24px;">
-        <a class="btn-floating btn-lg green">
-            <i class="fa fa-cog"></i>
-        </a>
 
-        <ul>
-            <li><a id="btnChangeInfo" class="btn-floating purple" data-toggle="tooltip" data-placement="left"
-                   title="Change Info"><i
-                    class="fa fa-edit"></i></a></li>
-            <li><a id="btnChangePassword" class="btn-floating teal" data-toggle="tooltip" data-placement="left"
-                   title="Change Password"><i
-                    class="fa fa-lock"></i></a>
-            </li>
-        </ul>
-    </div>
+    {% if current_user.facebook_id == None %}
+
+        <div class="fixed-action-btn" style="bottom: 130px; right: 24px;">
+            <a class="btn-floating btn-lg green">
+                <i class="fa fa-cog"></i>
+            </a>
+
+            <ul>
+                <li><a id="btnChangeInfo" class="btn-floating purple" data-toggle="tooltip" data-placement="left"
+                       title="Change Info"><i
+                        class="fa fa-edit"></i></a></li>
+                <li><a id="btnChangePassword" class="btn-floating teal" data-toggle="tooltip" data-placement="left"
+                       title="Change Password"><i
+                        class="fa fa-lock"></i></a>
+                </li>
+            </ul>
+        </div>
+
+
+        <!-- Modal Change Info -->
+        <div class="modal fade" id="modalChangeInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h4 class="modal-title w-100 font-weight-bold">Change Description</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body mx-3">
+                        <div class="md-form">
+                            <i class="fa fa-envelope prefix grey-text"></i>
+                            <input type="email" id="emailForgot" class="form-control validate">
+                            <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
+                        </div>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button class="btn btn-default" id="btnGetNewPassword">Change</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Change Info-->
+
+        <!-- Modal Change Password -->
+        <div class="modal fade" id="modalChangePassword" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <h4 class="modal-title w-100 font-weight-bold">Change Password</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body mx-3">
+                        <div class="md-form">
+                            <i class="fa fa-lock prefix grey-text"></i>
+                            <input type="password" id="oldPassword" class="form-control">
+                            <label data-error="wrong" data-success="right" for="defaultForm-email">Old password</label>
+                        </div>
+                        <div class="md-form">
+                            <i class="fa fa-lock prefix grey-text"></i>
+                            <input type="password" id="newPassword" class="form-control">
+                            <label data-error="wrong" data-success="right" for="defaultForm-email">New password</label>
+                        </div>
+                        <div class="md-form">
+                            <i class="fa fa-lock prefix grey-text"></i>
+                            <input type="password" id="rePassword" class="form-control">
+                            <label data-error="wrong" data-success="right" for="defaultForm-email">Repeat
+                                password</label>
+                            <p id="errorRePass" class="text-danger text-center small font-bold"></p>
+                        </div>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button class="btn btn-default" id="btnSubmitChangePassword">Change</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Change Password-->
+    {% endif %}
 
     <!-- Modal confirm delete -->
     <div class="modal fade" id="modalConfirmDelete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
@@ -179,69 +248,6 @@
     </div>
     <!-- Modal confirm delete-->
 
-    <!-- Modal Change Info -->
-    <div class="modal fade" id="modalChangeInfo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-         aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header text-center">
-                    <h4 class="modal-title w-100 font-weight-bold">Change Description</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body mx-3">
-                    <div class="md-form">
-                        <i class="fa fa-envelope prefix grey-text"></i>
-                        <input type="email" id="emailForgot" class="form-control validate">
-                        <label data-error="wrong" data-success="right" for="defaultForm-email">Your email</label>
-                    </div>
-                </div>
-                <div class="modal-footer d-flex justify-content-center">
-                    <button class="btn btn-default" id="btnGetNewPassword">Change</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal Change Info-->
-
-    <!-- Modal Change Password -->
-    <div class="modal fade" id="modalChangePassword" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-         aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header text-center">
-                    <h4 class="modal-title w-100 font-weight-bold">Change Password</h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body mx-3">
-                    <div class="md-form">
-                        <i class="fa fa-lock prefix grey-text"></i>
-                        <input type="password" id="oldPassword" class="form-control">
-                        <label data-error="wrong" data-success="right" for="defaultForm-email">Old password</label>
-                    </div>
-                    <div class="md-form">
-                        <i class="fa fa-lock prefix grey-text"></i>
-                        <input type="password" id="newPassword" class="form-control">
-                        <label data-error="wrong" data-success="right" for="defaultForm-email">New password</label>
-                    </div>
-                    <div class="md-form">
-                        <i class="fa fa-lock prefix grey-text"></i>
-                        <input type="password" id="rePassword" class="form-control">
-                        <label data-error="wrong" data-success="right" for="defaultForm-email">Repeat
-                            password</label>
-                        <p id="errorRePass" class="text-danger text-center small font-bold"></p>
-                    </div>
-                </div>
-                <div class="modal-footer d-flex justify-content-center">
-                    <button class="btn btn-default" id="btnSubmitChangePassword">Change</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal Change Password-->
 {% endblock %}
 
 {% block js_footer %}
