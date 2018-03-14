@@ -2,93 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14da9d7b-9f02-4982-8966-f06338a84384" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/plugins/icons.png" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/plugins/icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/plugins/icons_hidpi.png" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/plugins/icons_hidpi.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/skins/moono-lisa/icons.png" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/skins/moono-lisa/icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/skins/moono-lisa/icons_hidpi.png" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/skins/moono-lisa/icons_hidpi.png" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/erp_fruitsandgreens/project/static/fg.ico" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/account.py" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/transaction.py" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/erp_fruitsandgreens/project/static/css/lib/animate.min.css" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/account/login.html" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/transaction/transaction_export.html" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/transaction/transaction_export_info.html" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/transaction/transaction_import.html" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/transaction/transaction_import_info.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TestBlog.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/erp_fruitsandgreens/db_migration.py" afterPath="$USER_HOME$/Documents/erp_fruitsandgreens/db_migration.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/__init__.py" afterPath="$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/__init__.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/import_section.py" afterPath="$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/import_section.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/warehouse.py" afterPath="$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/warehouse.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/erp_fruitsandgreens/project/models/model.py" afterPath="$USER_HOME$/Documents/erp_fruitsandgreens/project/models/model.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/mainpage/mainpage.html" afterPath="$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/mainpage/mainpage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Blog.iml" afterPath="$PROJECT_DIR$/.idea/Blog.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/build-config.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/build-config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/ckeditor.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/ckeditor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/config.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/af.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/af.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/ar.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/ar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/az.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/az.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/bg.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/bg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/bn.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/bn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/bs.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/bs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/ca.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/cs.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/cs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/cy.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/cy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/da.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/da.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/de-ch.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/de-ch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/de.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/el.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/el.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/en-au.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/en-au.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/en-ca.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/en-ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/en-gb.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/en-gb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/en.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/eo.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/eo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/es-mx.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/es-mx.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/es.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/et.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/et.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/eu.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/eu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/fa.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/fa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/fi.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/fi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/fo.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/fo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/fr-ca.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/fr-ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/fr.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/gl.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/gl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/gu.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/gu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/he.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/he.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/hi.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/hi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/hr.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/hr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/hu.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/hu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/id.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/id.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/is.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/is.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/it.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/ja.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/ja.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/ka.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/ka.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/km.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/km.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/ko.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/ko.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/ku.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/ku.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/lt.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/lt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/lv.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/lv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/mk.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/mk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/mn.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/mn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/ms.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/ms.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/nb.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/nb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/nl.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/no.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/no.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/oc.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/oc.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/pl.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/pt-br.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/pt-br.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/pt.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/pt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/ro.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/ro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/ru.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/si.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/si.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/sk.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/sk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/sl.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/sl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/sq.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/sq.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/sr-latn.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/sr-latn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/sr.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/sr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/sv.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/sv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/th.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/th.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/tr.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/tr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/tt.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/tt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/ug.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/ug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/uk.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/uk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/vi.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/vi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/zh-cn.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/zh-cn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/zh.js" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/lang/zh.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/skins/moono-lisa/editor.css" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/skins/moono-lisa/editor.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/skins/moono-lisa/editor_gecko.css" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/skins/moono-lisa/editor_gecko.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/skins/moono-lisa/editor_ie.css" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/skins/moono-lisa/editor_ie.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/skins/moono-lisa/editor_ie8.css" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/skins/moono-lisa/editor_ie8.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/static/plugin/ckeditor/skins/moono-lisa/editor_iequirks.css" afterPath="$PROJECT_DIR$/project/static/plugin/ckeditor/skins/moono-lisa/editor_iequirks.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/templates/home/my_blog.html" afterPath="$PROJECT_DIR$/project/templates/home/my_blog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/templates/layout/layout.html" afterPath="$PROJECT_DIR$/project/templates/layout/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/templates/layout/layout_2.html" afterPath="$PROJECT_DIR$/project/templates/layout/layout_2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/templates/post/notfound.html" afterPath="$PROJECT_DIR$/project/templates/post/notfound.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -98,30 +32,117 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Blog$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1520405370781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Blog$Unittests_for_test_Testing_test_register.coverage" NAME="Unittests for test.Testing.test_register Coverage Results" MODIFIED="1521017815739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Blog$Unittests_in_TestBlog_py.coverage" NAME="Unittests in TestBlog.py Coverage Results" MODIFIED="1521019395201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Blog$runserver__1_.coverage" NAME="runserver (1) Coverage Results" MODIFIED="1520416291978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/erp_fruitsandgreens_huy" />
+    <SUITE FILE_PATH="coverage/Blog$Unittests_for_UnitTest_Testing_test_insert.coverage" NAME="Unittests for UnitTest.Testing.test_insert Coverage Results" MODIFIED="1521018264874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/UnitTest" />
+    <SUITE FILE_PATH="coverage/Blog$Unittests_for_test_Testing_test_api_not_found.coverage" NAME="Unittests for test.Testing.test_api_not_found Coverage Results" MODIFIED="1521018403746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Blog$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1521020537476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Blog$Unittests_in_UnitTest_py.coverage" NAME="Unittests in UnitTest.py Coverage Results" MODIFIED="1521018141827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/UnitTest" />
+    <SUITE FILE_PATH="coverage/Blog$Unittests_for_TestBlog_Testing_test_register.coverage" NAME="Unittests for TestBlog.Testing.test_register Coverage Results" MODIFIED="1521019806831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Blog$runserver__2_.coverage" NAME="runserver (2) Coverage Results" MODIFIED="1520998895943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Documents/erp_fruitsandgreens" />
+    <SUITE FILE_PATH="coverage/Blog$flask_app.coverage" NAME="flask_app Coverage Results" MODIFIED="1521018134058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/UnitTest" />
+    <SUITE FILE_PATH="coverage/Blog$Unittests_for_test_Testing.coverage" NAME="Unittests for test.Testing Coverage Results" MODIFIED="1521017401026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Blog$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1521018258964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Blog$Unittests_for_TestBlog_Testing.coverage" NAME="Unittests for TestBlog.Testing Coverage Results" MODIFIED="1521019439700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="my_blog.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/templates/home/my_blog.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="transaction.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/transaction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="131" column="36" lean-forward="false" selection-start-line="131" selection-start-column="36" selection-end-line="131" selection-end-column="36" />
+            <state relative-caret-position="269">
+              <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="22" />
               <folding>
-                <element signature="e#6139#7458#0#HTML" expanded="false" />
-                <element signature="e#7541#9712#0#HTML" expanded="false" />
+                <element signature="e#25#48#0" expanded="true" />
+                <element signature="e#1503#4785#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout_2.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/templates/layout/layout_2.html">
+      <file leaf-file-name="transaction_import.html" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/transaction/transaction_import.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="40" column="99" lean-forward="false" selection-start-line="40" selection-start-column="99" selection-end-line="40" selection-end-column="99" />
+            <state relative-caret-position="2567">
+              <caret line="683" column="47" lean-forward="false" selection-start-line="683" selection-start-column="47" selection-end-line="683" selection-end-column="47" />
               <folding>
-                <element signature="n#nav#0;n#header#0;n#body#0;n#!!top" expanded="false" />
+                <element signature="e#120#468#0#HTML" expanded="false" />
+                <element signature="e#698#2309#0#HTML" expanded="false" />
+                <element signature="e#905#2031#0#HTML" expanded="false" />
+                <element signature="e#2369#2422#0#HTML" expanded="true" />
+                <element signature="e#2484#5007#0#HTML" expanded="false" />
+                <element signature="e#5154#7755#0#HTML" expanded="false" />
+                <element signature="e#6069#7635#0#HTML" expanded="false" />
+                <element signature="e#8104#8328#0#HTML" expanded="false" />
+                <element signature="e#10018#10700#0#HTML" expanded="false" />
+                <element signature="e#16286#21264#0#HTML" expanded="false" />
+                <element signature="e#21333#26423#0#HTML" expanded="false" />
+                <element signature="e#26505#28984#0#HTML" expanded="false" />
+                <element signature="e#26593#28973#0#HTML" expanded="false" />
+                <element signature="e#29265#29668#0#HTML" expanded="false" />
+                <element signature="e#29941#30739#0#HTML" expanded="false" />
+                <element signature="e#30906#31851#0#HTML" expanded="false" />
+                <element signature="e#31998#34955#0#HTML" expanded="false" />
+                <element signature="e#35111#36347#0#HTML" expanded="false" />
+                <element signature="e#36480#37234#0#HTML" expanded="false" />
+                <element signature="e#37314#38100#0#HTML" expanded="false" />
+                <element signature="e#39694#39778#0#HTML" expanded="false" />
+                <element signature="e#39897#40814#0#HTML" expanded="false" />
+                <element signature="e#40930#41178#0#HTML" expanded="false" />
+                <element signature="e#41248#41332#0#HTML" expanded="false" />
+                <element signature="e#41566#43444#0#HTML" expanded="false" />
+                <element signature="e#43595#45469#0#HTML" expanded="false" />
+                <element signature="e#45632#51204#0#HTML" expanded="false" />
+                <element signature="e#51593#51804#0#HTML" expanded="false" />
+                <element signature="e#51858#52543#0#HTML" expanded="false" />
+                <element signature="e#52635#55022#0#HTML" expanded="false" />
+                <element signature="e#55175#57155#0#HTML" expanded="false" />
+                <element signature="e#57237#57429#0#HTML" expanded="false" />
+                <element signature="e#57499#57691#0#HTML" expanded="false" />
+                <element signature="e#57759#57910#0#HTML" expanded="false" />
+                <element signature="e#57980#58172#0#HTML" expanded="false" />
+                <element signature="e#58234#58292#0#HTML" expanded="false" />
+                <element signature="e#58351#58409#0#HTML" expanded="false" />
+                <element signature="e#58551#58710#0#HTML" expanded="false" />
+                <element signature="e#58815#58950#0#HTML" expanded="false" />
+                <element signature="e#59109#59178#0#HTML" expanded="false" />
+                <element signature="e#59227#59299#0#HTML" expanded="false" />
+                <element signature="e#59392#59663#0#HTML" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="warehouse.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/warehouse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-308">
+              <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestBlog.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestBlog.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="783">
+              <caret line="59" column="28" lean-forward="false" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/controllers/post.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="64" column="46" lean-forward="false" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,8 +154,26 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>summ</find>
+      <find>SummaryImport</find>
+      <find>reload</find>
+      <find>import_fg_statement_all</find>
+      <find>statement_merchandise</find>
+      <find>Tạo</find>
+      <find>Cus</find>
+      <find>#in-stat-eta</find>
+      <find>in-stat-eta</find>
+      <find>in-new-statement</find>
+      <find>in-stat-date-payment</find>
+      <find>in-stat-search-end</find>
+      <find>in-stat-submit-form</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -154,6 +193,27 @@
         <option value="$PROJECT_DIR$/project/templates/layout/layout.html" />
         <option value="$PROJECT_DIR$/project/templates/home/my_blog.html" />
         <option value="$PROJECT_DIR$/project/templates/layout/layout_2.html" />
+        <option value="$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/import/statement.html" />
+        <option value="$USER_HOME$/Documents/erp_fruitsandgreens/.gitignore" />
+        <option value="$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/account/login.html" />
+        <option value="$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/account.py" />
+        <option value="$USER_HOME$/Documents/erp_fruitsandgreens/project/config.cfg" />
+        <option value="$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/import_section.py" />
+        <option value="$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/warehouse/warehouse.html" />
+        <option value="$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/warehouse/warehouse-info.html" />
+        <option value="$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/warehouse.py" />
+        <option value="$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/transaction/transaction_export.html" />
+        <option value="$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/transaction/transaction_export_info.html" />
+        <option value="$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/__init__.py" />
+        <option value="$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/mainpage/mainpage.html" />
+        <option value="$USER_HOME$/Documents/erp_fruitsandgreens/db_migration.py" />
+        <option value="$USER_HOME$/Documents/erp_fruitsandgreens/project/models/model.py" />
+        <option value="$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/transaction.py" />
+        <option value="$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/transaction/transaction_import.html" />
+        <option value="$USER_HOME$/Desktop/UnitTest/config.cfg" />
+        <option value="$PROJECT_DIR$/test/test.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/TestBlog.py" />
       </list>
     </option>
   </component>
@@ -164,8 +224,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
+    <option name="x" value="-7" />
+    <option name="width" value="1023" />
     <option name="height" value="745" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -184,7 +244,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -202,6 +262,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,49 +280,73 @@
               <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="Blog" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UnitTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp_fruitsandgreens" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp_fruitsandgreens" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp_fruitsandgreens" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp_fruitsandgreens" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="erp_fruitsandgreens" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="erp_fruitsandgreens" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
+              <item name="import" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="erp_fruitsandgreens" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Blog" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="transaction" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/UnitTest" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\Python\Blog" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mouse Wip\Documents\erp_fruitsandgreens\project\static" />
+      <recent name="C:\Users\Mouse Wip\Documents\erp_fruitsandgreens\project\static\css\lib" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -275,15 +361,75 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.runserver">
+    <configuration name="Unittests for TestBlog.Testing" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Blog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestBlog.Testing&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests for TestBlog.Testing.test_register" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Blog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestBlog.Testing.test_register&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Unittests in TestBlog.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Blog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestBlog.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Blog" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="runserver" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Program Files\Python36\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Blog" />
@@ -293,9 +439,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in TestBlog.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python.runserver" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for TestBlog.Testing" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for TestBlog.Testing.test_register" />
+    </list>
     <recent_temporary>
-      <list size="1">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.runserver" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for TestBlog.Testing.test_register" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for TestBlog.Testing" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in TestBlog.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test.py" />
       </list>
     </recent_temporary>
   </component>
@@ -320,31 +477,69 @@
       <option name="project" value="LOCAL" />
       <updated>1520409977646</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Change ckeditor">
+      <created>1520414679434</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1520414679434</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_TestBlog_Testing - 2018.03.14 at 16h 21m 30s.xml">
+      <configuration name="Unittests for TestBlog.Testing" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestBlog_Testing - 2018.03.14 at 16h 22m 01s.xml">
+      <configuration name="Unittests for TestBlog.Testing" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestBlog_Testing - 2018.03.14 at 16h 24m 01s.xml">
+      <configuration name="Unittests for TestBlog.Testing" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestBlog_Testing_test_register - 2018.03.14 at 16h 26m 50s.xml">
+      <configuration name="Unittests for TestBlog.Testing.test_register" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestBlog_Testing_test_register - 2018.03.14 at 16h 28m 32s.xml">
+      <configuration name="Unittests for TestBlog.Testing.test_register" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestBlog_Testing_test_register - 2018.03.14 at 16h 30m 08s.xml">
+      <configuration name="Unittests for TestBlog.Testing.test_register" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestBlog_py - 2018.03.14 at 16h 19m 16s.xml">
+      <configuration name="Unittests in TestBlog.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestBlog_py - 2018.03.14 at 16h 19m 51s.xml">
+      <configuration name="Unittests in TestBlog.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestBlog_py - 2018.03.14 at 16h 20m 05s.xml">
+      <configuration name="Unittests in TestBlog.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_TestBlog_py - 2018.03.14 at 16h 23m 16s.xml">
+      <configuration name="Unittests in TestBlog.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14128843" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22474378" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18081991" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39906833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39906833" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -355,12 +550,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$USER_HOME$/Documents/erp_fruitsandgreens_huy" />
+    </ignored-roots>
     <MESSAGE value="Change layout" />
     <MESSAGE value="Change ckeditor" />
     <option name="LAST_COMMIT_MESSAGE" value="Change ckeditor" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -368,7 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -376,7 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1054">
           <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -384,7 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -392,10 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="118" column="23" lean-forward="false" selection-start-line="118" selection-start-column="23" selection-end-line="118" selection-end-column="23" />
-          <folding>
-            <element signature="e#75#1155#0#HTML" expanded="false" />
-            <element signature="e#1238#4979#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -403,7 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -411,7 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -419,11 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
           <caret line="42" column="71" lean-forward="false" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#nav#0;n#header#0;n#body#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -431,17 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="71" lean-forward="false" selection-start-line="3" selection-start-column="71" selection-end-line="3" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/templates/account/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="150" column="8" lean-forward="true" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="8" />
-          <folding>
-            <element signature="e#62#9354#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -449,7 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -457,10 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="131" column="36" lean-forward="false" selection-start-line="131" selection-start-column="36" selection-end-line="131" selection-end-column="36" />
-          <folding>
-            <element signature="e#6139#7458#0#HTML" expanded="false" />
-            <element signature="e#7541#9712#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -468,8 +638,379 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
           <caret line="40" column="99" lean-forward="false" selection-start-line="40" selection-start-column="99" selection-end-line="40" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens_huy/project/templates/import/statement.html" />
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens_huy/project/config.cfg" />
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/static/css/lib/animate.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/account/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/config.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="72" lean-forward="false" selection-start-line="0" selection-start-column="72" selection-end-line="0" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/import/statement-info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="31" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/transaction/transaction_export_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="104" lean-forward="false" selection-start-line="0" selection-start-column="104" selection-end-line="0" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/transaction/transaction_export.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1375">
+          <caret line="1101" column="14" lean-forward="false" selection-start-line="1101" selection-start-column="14" selection-end-line="1101" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/mainpage/mainpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="11" column="70" lean-forward="false" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/makecode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="866" column="45" lean-forward="false" selection-start-line="866" selection-start-column="42" selection-end-line="866" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/export_secion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/import_section.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="447" column="34" lean-forward="false" selection-start-line="447" selection-start-column="33" selection-end-line="447" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/controllers/home.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#nav#0;n#header#0;n#body#0;n#!!top" expanded="false" />
+            <element signature="e#46#55#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/models/logic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/models/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#23#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/templates/account/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4811">
+          <caret line="283" column="46" lean-forward="false" selection-start-line="283" selection-start-column="46" selection-end-line="283" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/warehouse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/db_migration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="382" column="4" lean-forward="false" selection-start-line="382" selection-start-column="4" selection-end-line="382" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/import/statement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="179" column="89" lean-forward="false" selection-start-line="179" selection-start-column="78" selection-end-line="179" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/controllers/transaction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="22" />
+          <folding>
+            <element signature="e#25#48#0" expanded="true" />
+            <element signature="e#1503#4785#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/transaction/transaction_import_info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="47" lean-forward="true" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/templates/transaction/transaction_import.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2567">
+          <caret line="683" column="47" lean-forward="false" selection-start-line="683" selection-start-column="47" selection-end-line="683" selection-end-column="47" />
+          <folding>
+            <element signature="e#120#468#0#HTML" expanded="false" />
+            <element signature="e#698#2309#0#HTML" expanded="false" />
+            <element signature="e#905#2031#0#HTML" expanded="false" />
+            <element signature="e#2369#2422#0#HTML" expanded="true" />
+            <element signature="e#2484#5007#0#HTML" expanded="false" />
+            <element signature="e#5154#7755#0#HTML" expanded="false" />
+            <element signature="e#6069#7635#0#HTML" expanded="false" />
+            <element signature="e#8104#8328#0#HTML" expanded="false" />
+            <element signature="e#10018#10700#0#HTML" expanded="false" />
+            <element signature="e#16286#21264#0#HTML" expanded="false" />
+            <element signature="e#21333#26423#0#HTML" expanded="false" />
+            <element signature="e#26505#28984#0#HTML" expanded="false" />
+            <element signature="e#26593#28973#0#HTML" expanded="false" />
+            <element signature="e#29265#29668#0#HTML" expanded="false" />
+            <element signature="e#29941#30739#0#HTML" expanded="false" />
+            <element signature="e#30906#31851#0#HTML" expanded="false" />
+            <element signature="e#31998#34955#0#HTML" expanded="false" />
+            <element signature="e#35111#36347#0#HTML" expanded="false" />
+            <element signature="e#36480#37234#0#HTML" expanded="false" />
+            <element signature="e#37314#38100#0#HTML" expanded="false" />
+            <element signature="e#39694#39778#0#HTML" expanded="false" />
+            <element signature="e#39897#40814#0#HTML" expanded="false" />
+            <element signature="e#40930#41178#0#HTML" expanded="false" />
+            <element signature="e#41248#41332#0#HTML" expanded="false" />
+            <element signature="e#41566#43444#0#HTML" expanded="false" />
+            <element signature="e#43595#45469#0#HTML" expanded="false" />
+            <element signature="e#45632#51204#0#HTML" expanded="false" />
+            <element signature="e#51593#51804#0#HTML" expanded="false" />
+            <element signature="e#51858#52543#0#HTML" expanded="false" />
+            <element signature="e#52635#55022#0#HTML" expanded="false" />
+            <element signature="e#55175#57155#0#HTML" expanded="false" />
+            <element signature="e#57237#57429#0#HTML" expanded="false" />
+            <element signature="e#57499#57691#0#HTML" expanded="false" />
+            <element signature="e#57759#57910#0#HTML" expanded="false" />
+            <element signature="e#57980#58172#0#HTML" expanded="false" />
+            <element signature="e#58234#58292#0#HTML" expanded="false" />
+            <element signature="e#58351#58409#0#HTML" expanded="false" />
+            <element signature="e#58551#58710#0#HTML" expanded="false" />
+            <element signature="e#58815#58950#0#HTML" expanded="false" />
+            <element signature="e#59109#59178#0#HTML" expanded="false" />
+            <element signature="e#59227#59299#0#HTML" expanded="false" />
+            <element signature="e#59392#59663#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/config.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="69" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/UnitTest/config.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="69" lean-forward="false" selection-start-line="0" selection-start-column="69" selection-end-line="0" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/erp_fruitsandgreens/project/models/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="367" column="57" lean-forward="false" selection-start-line="367" selection-start-column="57" selection-end-line="367" selection-end-column="57" />
+          <folding>
+            <element signature="e#239#1057#0" expanded="false" />
+            <element signature="e#1095#1470#0" expanded="false" />
+            <element signature="e#1508#1905#0" expanded="false" />
+            <element signature="e#1941#2920#0" expanded="false" />
+            <element signature="e#2957#3965#0" expanded="false" />
+            <element signature="e#3266#3338#0" expanded="false" />
+            <element signature="e#3995#4990#0" expanded="false" />
+            <element signature="e#4291#4363#0" expanded="false" />
+            <element signature="e#5027#6029#0" expanded="false" />
+            <element signature="e#5330#5402#0" expanded="false" />
+            <element signature="e#6062#6546#0" expanded="false" />
+            <element signature="e#6578#6777#0" expanded="false" />
+            <element signature="e#6809#6973#0" expanded="false" />
+            <element signature="e#7006#7255#0" expanded="false" />
+            <element signature="e#7293#7668#0" expanded="false" />
+            <element signature="e#7706#8103#0" expanded="false" />
+            <element signature="e#8145#9036#0" expanded="false" />
+            <element signature="e#8565#8596#0" expanded="false" />
+            <element signature="e#9071#9694#0" expanded="false" />
+            <element signature="e#9731#10498#0" expanded="false" />
+            <element signature="e#10543#11454#0" expanded="false" />
+            <element signature="e#10966#10997#0" expanded="false" />
+            <element signature="e#11492#12099#0" expanded="false" />
+            <element signature="e#12136#13197#0" expanded="false" />
+            <element signature="e#13247#13889#0" expanded="false" />
+            <element signature="e#15144#15881#0" expanded="false" />
+            <element signature="e#15923#16260#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/UnitTest/UnitTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/controllers/account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="973">
+          <caret line="95" column="35" lean-forward="false" selection-start-line="95" selection-start-column="12" selection-end-line="95" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/controllers/post.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="64" column="46" lean-forward="false" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestBlog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="59" column="28" lean-forward="false" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
